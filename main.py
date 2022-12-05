@@ -37,9 +37,7 @@ class Item(BaseModel):
     Name: str
     attendance: int
    
-@app.get("/")
-async def create_item():
-    return {"FUCK YOU BC DEKHLEY AINDA LOCAL LOCAL NAHI CHILLANA"}
+
 
 @app.post("/addattendance/")
 async def create_item(item: Item):
